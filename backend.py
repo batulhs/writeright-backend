@@ -315,7 +315,7 @@ if __name__ == '__main__':
     print("\n" + "="*50)
     print("🚀 AI Handwriting Teacher Backend")
     print("="*50)
-    print(f"✅ API Key: {GEMINI_API_KEY[:20]}...{GEMINI_API_KEY[-4:]}")
+    print(f"✅ API Key")
     print(f"🤖 Model: {model._model_name if model else 'ERROR'}")
     print("🌐 Server: http://localhost:5000")
     print("="*50 + "\n")
